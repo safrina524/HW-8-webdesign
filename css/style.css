@@ -1,0 +1,184 @@
+          /* COMMON CSS STARTS */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  width: 1170px;
+  margin: auto;
+}
+
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+a{
+  text-decoration: none;
+}
+        
+ul, ol{
+  list-style: none;
+}
+
+body{
+  font-family:  'Open Sans', sans-serif;
+}
+
+.banner-context .button{
+  font-size: 16px;
+  font-weight: 800;
+  color: #0b1016;
+  background-color: #cfc91d;
+  border: none;
+  padding: 18px 40px 16px 40px;
+  letter-spacing: 3px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.heading h2{
+  text-transform: uppercase;
+  font-size: 46px;
+  font-weight: 800;
+  color: #02918c;
+  padding-top: 85px;
+  text-align: center;
+}
+
+.heading p{
+  color: #7e8287;
+  font-size: 16px;
+  text-align: center;
+  padding-bottom: 38px;
+}
+          /* COMMON CSS ENDS */
+
+          /* NAVBAR STARTS */
+nav{
+  background-color: #02918c;
+  justify-content: center;
+}
+
+nav .row{
+  align-items: center;
+}
+
+.logo{
+  width: 480px;
+  padding: 20px;
+}
+
+.logo img{
+  width: 135px;
+}
+
+.menu a{
+  padding: 25px;
+}
+
+.menu li{
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+          /* NAVBAR ENDS */
+
+          /* BANNER Starts */
+
+#banner{
+  background-image: url(../images/backcover.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 725px;
+}
+
+#banner .row{
+  height: 725px;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner-context{
+  text-align: center;
+  color: white;
+}
+
+.banner-context h3{
+  font-size: 40px;
+  font-weight: 400;
+}
+
+.banner-context h1{
+  font-size: 68px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 25px;
+}
+
+.banner-context p{
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.banner-context img{
+  padding: 50px;
+}
+
+          /* BANNER Ends */
+
+          /* ABOUT ME STARTS */
+
+/* ↑ heading is under common css ↑ */
+
+.para{
+  color: #7e8287;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  line-height: 35px;
+  padding-bottom: 80px;
+}
+
+.para span{
+  color: #7e8287;
+  font-size: 23px;
+  font-weight: 800;
+}
+
+.aboutme-cart{
+  padding-bottom: 100px;
+}
+
+.cart{
+  width: 290px;
+  height: 250px;
+  text-align: center;
+  padding: 38px 0px 50px 0px;
+  border-right: 1px solid #d9dbdb;
+}
+
+#laptop{
+  border: none;
+}
+
+.cart h3{
+  font-size: 20px;
+  padding: 25px 0px;
+  color: #7e8287;
+}
+
+.cart p{
+  font-size: 15px;
+  color: #7e8287;
+  line-height: 20px;
+}
+
+          /* ABOUT ME ENDS */
+
+
+
